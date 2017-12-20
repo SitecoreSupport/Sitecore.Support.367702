@@ -35,6 +35,7 @@ namespace Sitecore.Support
       return urlString;
     }
 
+
     private static UrlString BuildChangeLanguageNewUrl(string languageName, UrlString url, Item item)
     {
       Assert.ArgumentNotNull((object)languageName, "languageName");
